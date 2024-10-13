@@ -12,10 +12,13 @@ This repository contains the solution to the assignment involving three tasks th
 - [Technologies Used](#technologies-used)
 
 ---
+### video of event Scheduler
 [eventScheduler App](https://github.com/user-attachments/assets/e5d01824-4ba5-4a9e-a1a7-36d8df855b56)
 
+### Game overview and Draw function
 [game_Overview](https://github.com/user-attachments/assets/bc2cb0ad-4894-4b0f-b07c-af35e1661151)
 
+### game multiplayer functionality
 [multiplayer game demo](https://github.com/user-attachments/assets/e5e3292d-fd21-4e99-8106-19fca17cfe7b)
 
 
