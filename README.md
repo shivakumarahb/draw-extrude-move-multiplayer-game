@@ -2,7 +2,7 @@
 
 This repository contains the solution to the assignment involving three tasks that focus on cloud-based services using AWS (API Gateway, Lambda, S3), event scheduling, and multiplayer 3D game development. The tasks are completed using **NodeJS**, **Angular**, and **Go** (for Task 2, optionally). Below is an overview of each task, the thought process behind solving them, and instructions for setting up and running the project.
 
-## Videos of working solution Are in the results folder
+## Videos of working solution Are in the results_videos folder
 
 ## Table of Contents
 - [Task 1: APIs Lambda and S3](#task-1-apis-lambda-and-s3)
