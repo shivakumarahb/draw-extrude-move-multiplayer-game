@@ -1,0 +1,72 @@
+.container {
+  position: relative;
+}
+
+.toggle-button-1 {
+  position: absolute; 
+  top: 20px; 
+  left: 10vw; 
+  z-index: 10; 
+  background-color: #4876db; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.toggle-button-2 {
+  position: absolute; 
+  top: 20px; 
+  left: 30vw; 
+  z-index: 10; 
+  background-color: #4876db; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.toggle-button-3 {
+  position: absolute; 
+  top: 20px; 
+  left: 50vw; 
+  z-index: 10; 
+  background-color: #4876db; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.roomid {
+  position: absolute; 
+  top: 20px; 
+  left: 70vw; 
+  z-index: 10; 
+  background-color: #5974ad; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+.toggle-button:hover {
+  background-color: #4876db ; 
+}
+
+.canvas-style {
+  width: 99vw; 
+  height: 97vh; 
+  border: 1px solid #4876db; 
+  display: flex;
+}
+
+html, body {
+  font-family: Roboto, sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}

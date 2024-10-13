@@ -1,0 +1,13 @@
+<div class="container">
+  <button (click)="toggleCameraControl()" class="toggle-button-1">
+    {{ cameraControlAttached ? 'Detach Controls' : 'Attach Controls' }}
+  </button>
+  <button (click)="drawModeStart()" class="toggle-button-2">
+    {{ drawMode ? 'close draw mode' : 'Draw mode' }}
+  </button>
+  <button (click)="extrudeShape()" class="toggle-button-3">
+    {{ drawMode ? 'extrude shape Done' : 'Extrude Shape' }}
+  </button>
+  <p class="roomid">Room ID: {{ roomId }}</p>
+  <canvas #renderCanvas class="canvas-style"></canvas>
+</div>

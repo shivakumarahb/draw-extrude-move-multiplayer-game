@@ -1,0 +1,33 @@
+<div class="container">
+  <h2 class="title">Extruder Multiplayer Game</h2>
+
+  <div class="form-container">
+    <button class="btn btn-create" (click)="game.createRoom()" data-cy="create-btn">
+      Create Room
+    </button>
+
+    <form (ngSubmit)="game.joinRoom(roomId)" #joinRoomForm="ngForm">
+      <input
+        type="text"
+        [(ngModel)]="roomId"
+        name="roomId"
+        class="input"
+        placeholder="Enter Room ID"
+        required
+      />
+      <h1></h1>
+      <button
+        type="submit"
+        class="btn btn-join"
+        data-cy="join-btn"
+        [disabled]="!joinRoomForm.valid"
+      >
+        Join Room
+      </button>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <a href="https://github.com/shivakumarahb">View the source on GitHub</a>
+  </footer>
+</div>

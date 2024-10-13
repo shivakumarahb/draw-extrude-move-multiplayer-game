@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>Event Scheduler</h2>
+    <form (ngSubmit)="addEvent()">
+        <label for="startTime">Start Time (0-23):</label>
+        <input type="number" [(ngModel)]="startTime" name="startTime" min="0" max="23" required />
+
+        <label for="endTime">End Time (0-23):</label>
+        <input type="number" [(ngModel)]="endTime" name="endTime" min="0" max="23" required />
+
+        <button type="submit">Add Event</button>
+        <div *ngIf="errorMessage" style="color: red;">{{ errorMessage }}</div>
+    </form>
+
+    <h3>Scheduled Events</h3>
+    <ul>
+        <li *ngFor="let event of events">
+            {{ event.start_time }} - {{ event.end_time }}
+        </li>
+    </ul>
+</div>
