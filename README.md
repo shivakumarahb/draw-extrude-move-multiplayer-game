@@ -1,4 +1,4 @@
-# AWS NodeJS & Angular Scheduler & Game
+# AWS, NodeJS & Angular Event Scheduler and Babylon Colyseus Game
 
 This repository contains the solution to the assignment involving three tasks that focus on cloud-based services using AWS (API Gateway, Lambda, S3), event scheduling, and multiplayer 3D game development. The tasks are completed using **NodeJS**, **Angular**, and **Go** (for Task 2, optionally). Below is an overview of each task, the thought process behind solving them, and instructions for setting up and running the project.
 
