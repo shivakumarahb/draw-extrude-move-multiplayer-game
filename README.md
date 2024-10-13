@@ -2,17 +2,23 @@
 
 This repository contains the solution to the assignment involving three tasks that focus on cloud-based services using AWS (API Gateway, Lambda, S3), event scheduling, and multiplayer 3D game development. The tasks are completed using **NodeJS**, **Angular**, and **Go** (for Task 2, optionally). Below is an overview of each task, the thought process behind solving them, and instructions for setting up and running the project.
 
-## Videos of working solution Are in the results_videos folder or link is given below
-
-[multiplayer game demo](https://github.com/user-attachments/assets/e5e3292d-fd21-4e99-8106-19fca17cfe7b)
+## Videos of working solution Are given below (also available in result_videos folder
 
 ## Table of Contents
+- videos of working solution
 - [Task 1: APIs Lambda and S3](#task-1-apis-lambda-and-s3)
 - [Task 2: Building a Daily Event Scheduler](#task-2-building-a-daily-event-scheduler)
 - [Task 3: Babylon Shape Extrusion with Colyseus](#task-3-babylon-shape-extrusion-with-colyseus)
 - [Technologies Used](#technologies-used)
 
 ---
+[eventScheduler App](https://github.com/user-attachments/assets/e5d01824-4ba5-4a9e-a1a7-36d8df855b56)
+
+[game_Overview](https://github.com/user-attachments/assets/bc2cb0ad-4894-4b0f-b07c-af35e1661151)
+
+[multiplayer game demo](https://github.com/user-attachments/assets/e5e3292d-fd21-4e99-8106-19fca17cfe7b)
+
+
 
 ## Task 1: APIs Lambda and S3
 
@@ -130,6 +136,7 @@ This task involves creating a multiplayer game where users can:
 - Users can see other players' shapes and movements on the same ground plane.
 - Each users Object will get unique color 
 - Using mouse click to move objects
+- Added Draw Mode function
 
 ### How to Run
 
