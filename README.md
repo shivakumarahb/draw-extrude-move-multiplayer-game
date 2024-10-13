@@ -137,6 +137,7 @@ This task involves creating a multiplayer game where users can:
 - **BabylonJS** for rendering 3D objects.
 - **ColyseusJS** for real-time multiplayer synchronization.
 - Users can see other players' shapes and movements on the same ground plane.
+- users can join same room using room id
 - Each users Object will get unique color 
 - Using mouse click to move objects
 - Added Draw Mode function
