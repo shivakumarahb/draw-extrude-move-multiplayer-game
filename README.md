@@ -1,8 +1,8 @@
-# AWS, NodeJS & Angular Event Scheduler and Babylon Colyseus Game
+# Babylon Colyseus Game
 
 This repository contains multiplayer 3D game development. 
 
-## Videos of working solution Are given below (also available in result_videos folder)
+## Videos of Game Are given below (also available in result_videos folder)
 
 ## Table of Contents
 - [Babylon Shape Extrusion with Colyseus](#task-3-babylon-shape-extrusion-with-colyseus)
